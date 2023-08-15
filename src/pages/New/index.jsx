@@ -99,7 +99,7 @@ export function New(){
                 ))
               }
               <NoteItem 
-              isnew
+              isNew
               placeholder="Novo link"
               value = {newLink}
               onChange={e =>setNewLink(e.target.value)}
