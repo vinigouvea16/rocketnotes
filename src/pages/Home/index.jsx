@@ -17,7 +17,7 @@ export function Home(){
   const [search, setSearch] = useState([]);
   const [notes, setNotes] = useState([]);
 
-  const navigate = useNavigate
+  const navigate = useNavigate();
 
   function handleTagSelected(tagName){
     if (tagName === "all"){
