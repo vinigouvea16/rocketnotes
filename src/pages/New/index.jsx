@@ -129,7 +129,7 @@ export function New(){
                 ))
               }
               <NoteItem 
-              isNew 
+              $isNew 
               placeholder="Nova tag"
               onChange = {e => setNewTag(e.target.value)}
               value={newTag}
