@@ -44,7 +44,7 @@ export function Details(){
       {
         data &&
       <main>
-        <Content>
+    <Content>
          
 
       <ButtonText 
